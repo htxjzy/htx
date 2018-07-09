@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+.bidwrap,div,h1,h2,h3,h4,h5,h6,p,img,dl,dt,dd,ol,ul,li,table,caption,tbody,tfoot,thead,tr,th,td,form,fieldset,embed,object,applet,header,nav,section,strong,footer,a img{border:0;margin:0;padding:0;}
+ul{list-style:none}
+a{ text-decoration:none; transition:all 0.5s linear 0s;}
+p{ text-align:justify; text-justify:inter-ideograph; }
+a:hover{ text-decoration:none; }
+img {border:none; vertical-align:top;}
+.bidwrap{font-family:"msyhl422459","微软雅黑","Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",STHeiti,MingLiu,Srial, Verdana, Geneva, sans-serif, tahoma, helvetica, sans-serif; font-size:14px;  width:96%; min-width:1160px; min-height:200px; margin:15px auto 0 auto; font-size:14px; color:#454545; background:#fff; padding:0 10px 30px 10px; border:1px solid #aaa;}
+.bidwrap .divp{ margin-bottom:0px; line-height:56px; height:56px;  }
+.bidwrap .divp span{ margin-right:20px; }
+.bidwrap .divp span i{ color:#e4393c; font-style:normal; font-size:16px; }
+.bidwrap .divp span:first-child{ font-size:18px; }
+.bidwrap .divp a.aall{ padding:6px 10px; border-radius:6px; background:#FF5722; color:#fff; }
+.bidwrap .divp a.aall:hover{background:#FF8F38;}
+.bidwrap .divp .search-date{ float:right; width:330px; display:block; margin-top:10px; }
+.bidwrap .divp .search-date .layui-form-label{width:40px; position:relative; left:30px;}
+.bidwrap .divp .search-date .layui-input-inline{width:160px; position:relative; left:30px;}
+.bidwrap .divp .search-date input.layui-form-mid {display:block; cursor:pointer; padding:6px 10px !important; border-radius:4px; border:1px solid #FF5722; background:#FF5722; color:#fff !important; margin-right:0px; position:relative; left:35px;}
+.bidwrap .divp .search-keyword{ float:right; margin-top:10px; display:block; height:50px; width:390px; padding-right:60px; position:relative;  }
+.bidwrap .divp .search-keyword input[readonly]{background-color:#fff;}
+.bidwrap .divp .search-keyword input[name="skeyword_submit"]{cursor:pointer; position:absolute; right:0px; top:0px; display:block; padding:6px 10px; border-radius:4px; border:1px solid #FF5722; background:#FF5722; color:#fff; }
+
+
+.bidwrap > p{ color:#898989; margin-bottom:15px; }
+.bidwrap > p span{color:rgba(210,19,86,1);}
+
+.bidtable{ width:100%; background:#fff; border-collapse:collapse;/*Eliminate form gaps, and make it appear 1px*/  }
+.bidtable tr{border-bottom:1px solid #e2e2e2;}
+.bidtable tr:hover{ background:#fafafa;  }
+.bidtable th{ background:#e2e2e2; padding:8px 0px; text-align:center; color:#666; }
+.bidtable td{  padding:8px 5px; text-align:center; color:#666;  }
+.bidtable td .layui-none-information{height:124px;text-align:center}
+.bidtable td .layui-none-information>i{vertical-align:middle;display:inline-block;background-image:url(/p/images/member/not_info.png);background-repeat:no-repeat;background-position:center 10px;width:150px;height:124px}
+.bidtable td .layui-none-information>span{display:inline-block;vertical-align:middle;font-size:14px;line-height:124px;margin-left:10px}
+.bidtable td:nth-child(1){ color:rgba(210,19,86,1); }
+.bidtable td:nth-child(6){ max-width:520px; text-align:left; }
+.bidtable td:nth-child(6) a, .bidtable td:nth-child(6) a:visited{ color:#0073aa; }
+.bidtable td:nth-child(6) a:hover{ color:#ff5722; }
+.bidtable td:nth-child(10) span{ color:rgba(210,19,86,1); }
+.bidtable td:nth-child(11){ width:100px; }
+.bidtable td:nth-child(11) span{ margin:0px 12px; }
+.bidtable td:nth-child(11) a, .bidtable td:nth-child(11) a:visited{ /*color:#3485fb;*/ color:#0073aa;}
+.bidtable td:nth-child(11) a:hover{ color:#ff5722; }
+
+#tdpage{ text-align:center; padding:10px 0px; }
+#tdpage .page-numbers{ padding:1px 6px; border:1px #898989 solid; border-radius:4px; font-size:12px; margin:0 0px; } 
+#tdpage .current{ background:#FF5722; border:1px #FF5722 solid; color:#fff; }
+
+/** bo-bid-edit **/
+.bidwrap2{ font-family:"msyhl422459","微软雅黑","Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",STHeiti,MingLiu,Srial, Verdana, Geneva, sans-serif, tahoma, helvetica, sans-serif; font-size:14px;  width:98%; min-height:200px; margin:0 auto; margin-top:20px; font-size:14px; color:#454545; }
+.bidwrap2 .layui-row .layui-col-sm9 .edit-location{ background:#fff; padding:0px 3%; height:42px; line-height:42px; border:1px #e2e2e2 solid; margin-bottom:20px;  }
+.bidwrap2 .layui-row .layui-col-sm9 .edit-location a{ color:#454545; }
+.bidwrap2 .layui-row .layui-col-sm9 .edit-location a:hover{ color:#FF5722; }
+.bidwrap2 .layui-row .layui-col-sm9 .edit-location .layui-icon{ color:#FF5722; font-size:20px; }
+.bidwrap2 .layui-row .layui-col-sm9 h1{background:#fff; padding:0px 3%; height:42px; line-height:42px; border:1px #e2e2e2 solid; font-size:18px; margin-bottom:20px;} 
+.bidwrap2 .layui-row .layui-col-sm9 h1 span{ color:rgba(210,19,86,1); }
+.bidwrap2 .layui-row .layui-col-sm9 .bid_edit_box{ min-height:600px; border:1px #e2e2e2 solid;  color:#454545; background:#fff; padding:20px 3%; }
+
+.bidwrap2 .layui-row .layui-col-sm9 .bid_edit_box table.custom_table{ width:100%; font-size:14px; font-family:"Microsoft YaHei" !important; }
+.bidwrap2 .layui-row .layui-col-sm9 .bid_edit_box table.custom_table tr td:first-child{ width:25%; text-align:right; padding-bottom:5px; padding-right:5px; }
+.bidwrap2 .layui-row .layui-col-sm9 .bid_edit_box table.custom_table tr td:first-child span{ color:rgba(210,19,86,1); }
+.bidwrap2 .layui-row .layui-col-sm9 .bid_edit_box table.custom_table tr td:last-child{ width:75%; }
+.bidwrap2 .layui-row .layui-col-sm9 .bid_edit_box table.custom_table tr td:last-child input{ width:100%; padding:7px 8px; margin-bottom:10px; }
+.bidwrap2 .layui-row .layui-col-sm9 .bid_edit_box table.custom_table tr td:last-child textarea{ width:100%; padding:7px 8px; margin-bottom:10px;}
+.bidwrap2 .layui-row .layui-col-sm9 .bid_edit_box table.custom_table tr td:last-child > a{ margin-bottom:10px; }
+.bidwrap2 .layui-row .layui-col-sm9 .bid_edit_box table.custom_table tr td.subcat-standard select{width:100%; height:32px; line-height:32px;  margin-bottom:10px;}
+.bidwrap2 .layui-row .layui-col-sm9 .bid_edit_box table.custom_table tr td.pca{ font-size:14px; }
+.bidwrap2 .layui-row .layui-col-sm9 .bid_edit_box table.custom_table tr td.pca select{ width:150px; height:32px; line-height:32px;  margin-bottom:10px;}
+.bidwrap2 .layui-row .layui-col-sm9 .bid_edit_box table.custom_table tr td.pca span{ position:relative; top:-3px; }
+.bidwrap2 .layui-row .layui-col-sm9 .bid_edit_box table.custom_table tr td.pca span:nth-child(1){ margin-left:10px; }
+.bidwrap2 .layui-row .layui-col-sm9 .bid_edit_box table.custom_table tr td.pca select:nth-child(2){ margin-right:10px; }
+.bidwrap2 .layui-row .layui-col-sm9 .bid_edit_box table.custom_table tr td.pca span:nth-child(5){ margin-left:10px;  }
+.bidwrap2 .layui-row .layui-col-sm9 .bid_edit_box table.custom_table tr td #ass_status{ width:150px; height:32px; line-height:32px;  margin-bottom:10px;}
+.bidwrap2 .layui-row .layui-col-sm9 .bid_edit_box .disabled_update{border:1px solid #ccc; height:32px; line-height:32px; padding-left:8px; margin-bottom:10px; color:#FF5722}
+.bidwrap2 .layui-row .layui-col-sm9 .bid_edit_box table.custom_table tr td > a{ display:block; margin:0 auto;}
+.bidwrap2 .layui-row .layui-col-sm9 .bid_edit_box table.custom_table tr td > a img{ max-width:100%; display:block; height:auto; }
+.bidwrap2 .layui-row .layui-col-sm9 .bid_edit_box table.custom_table tr td a.bidforid{ color:#0073aa; }
+.bidwrap2 .layui-row .layui-col-sm9 .bid_edit_box table.custom_table tr td a.bidforid:hover{ color:#FF5722; }
+
+.bidwrap2 .layui-row .layui-col-sm3 .operabox{ min-height:100px; border:1px #e2e2e2 solid; background:#fff; padding:20px 5%; position:relative;  }
+.bidwrap2 .layui-row .layui-col-sm3 .operabox h2{ text-align:center; font-size:18px; height:42px; line-height:42px; border-bottom:1px solid #e2e2e2; margin-bottom:50px; }
+.bidwrap2 .layui-row .layui-col-sm3 .operabox p{ color:#454545; font-size:14px; margin-bottom:50px; text-align:center;  }
+.bidwrap2 .layui-row .layui-col-sm3 .operabox p span{ color:rgba(210,19,86,1); font-size:14px;  }
+.bidwrap2 .layui-row .layui-col-sm3 .operabox .operabutton{ text-align:center; min-height:42px; margin-bottom:50px; }
+.bidwrap2 .layui-row .layui-col-sm3 .operabox .operabutton a{ padding:10px 8%; color:#fff; background:#FF5722; border-radius:6px; }
+.bidwrap2 .layui-row .layui-col-sm3 .operabox .operabutton a:first-child{ margin-right:5%; }
+.bidwrap2 .layui-row .layui-col-sm3 .operabox .operabutton a:last-child{ margin-left:5%; }
+.bidwrap2 .layui-row .layui-col-sm3 .operabox .operabutton a:hover{ color:#ff8032; color:#fff; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

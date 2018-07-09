@@ -1,0 +1,31 @@
+@charset "utf-8";
+.formwrap{ width:1200px; padding:30px 20px; margin:0 auto; }
+.formwrap .layui-form .layui-form-item{ margin-bottom:50px; } 
+.formwrap .layui-form .layui-form-item .layui-form-label { width:120px;}
+.formwrap .layui-form .layui-form-item .layui-input-block{ margin-left:180px;  }
+/*.formwrap .layui-form .layui-form-item .layui-btn {margin-left:180px;}*/
+.formwrap .layui-form .layui-form-item .layui-input-block input[name="total_fee"]{ font-size:16px; color:#cc0000;  }
+.formwrap .layui-form .layui-form-item .layui-input-block input::-webkit-input-placeholder { /* WebKit browsers */
+font-size:14px; color:#898989;
+}
+.formwrap .layui-form .layui-form-item .layui-input-block input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+font-size:14px; color:#898989;
+}
+.formwrap .layui-form .layui-form-item .layui-input-block input::-moz-placeholder { /* Mozilla Firefox 19+ */
+font-size:14px; color:#898989;
+}
+.formwrap .layui-form .layui-form-item .layui-input-block input:-ms-input-placeholder { /* Internet Explorer 10+ */
+font-size:14px; color:#898989;
+}
+.formwrap .layui-form .layui-form-item .layui-btn { background:#e4393c;  width:150px; margin-left:118px;}
+
+.layui-tab-title{height:85px;border-bottom-width:0}
+.layui-tab-title li{border:1px solid #e2e2e2;font-size:16px;width:137px;height:70px;line-height:70px;margin-right:50px}
+.layui-tab-title li:first-child{ background:url(../images/member/alipay-img.png) center 12px no-repeat; }
+.layui-tab-title li:nth-child(2){ background:url(../images/member/weixin-img.png) center 12px no-repeat; }
+
+.layui-tab-title li>i{width:12px;height:12px;position:absolute;top:2px;right:2px}
+.layui-tab-title .layui-this::after{height:70px;border-width:2px;border-style:solid;border-color:#8cbb43;border-radius:0}
+.layui-tab-title .layui-this{background-color:#EFB}
+.layui-tab-title .layui-this>i{background-image:url(/p/images/login/true.png);background-repeat:no-repeat;background-position:center center}
+

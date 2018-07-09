@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+a{ text-decoration:none; transition:all 0.5s linear 0s;}
+p{ text-align:justify; text-justify:inter-ideograph; }
+a:hover{ text-decoration:none; }
+img {border:none; vertical-align:top;}
+body{ font-family:"msyhl422459","微软雅黑","Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",STHeiti,MingLiu,Srial, Verdana, Geneva, sans-serif, tahoma, helvetica, sans-serif; font-size:14px; }
+
+/*assignments columns */
+td._htx_ass_accept_fee a{}
+td.bidcount{color:rgba(210,19,86,1);}
+td.final_editor{color:#FF5722;}
+li#menu-posts-assignments ul.wp-submenu li:nth-child(3){ display:none; }
+li#menu-posts-assignments ul.wp-submenu li:nth-child(4){ display:none; }
+li#menu-posts-assignments ul.wp-submenu li:nth-child(5){ display:none; }
+
+
+/*experts columns */
+td.thumbnail > img{ display:block; max-width:100%; height:auto;  }
+td.expert_id{ color:#FF5722; }
+
+/*experts menu*/
+li#menu-posts-experts ul.wp-submenu li:nth-child(3){ display:none; }
+li#menu-posts-experts ul.wp-submenu li:nth-child(4){ display:none; }
+
+/*shops menu*/
+li#menu-posts-shops ul.wp-submenu li:nth-child(3){ display:none;}
+li#menu-posts-shops ul.wp-submenu li:nth-child(4){ display:none;  }
+li#menu-posts-shops ul.wp-submenu li:nth-child(5){ display:none;  }
+
+/*projects menu*/
+li#menu-posts-projects ul.wp-submenu li:nth-child(3){ display:none; }
+li#menu-posts-projects ul.wp-submenu li:nth-child(4){ display:none; }
+li#menu-posts-projects ul.wp-submenu li:nth-child(5){ display:none; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

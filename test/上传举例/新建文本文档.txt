@@ -1,0 +1,6 @@
+ 通常情况下，我们上传文件是借助 type="file" 的 input 标签来完成的，但非常遗憾的是，它不能很好地与其它表单元素并存，所以我们常常要单独为它做一个业务层面的“异步上传”，即先让图片上传，再和其它表单一起提交保存。这里我们结合layui的上传文件与PHP结合给一个实例，希望给大家带来方便：
+
+layui上传文件文档：http://www.layui.com/doc/modules/upload.html
+
+
+http://www.ncyteng.com/news/show/260   网址

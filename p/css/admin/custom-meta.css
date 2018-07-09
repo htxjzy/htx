@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+table.custom_table{ width:100%; font-size:14px; font-family:"Microsoft YaHei" !important; }
+table.custom_table tr td:first-child{ width:25%; text-align:right; padding-bottom:5px; }
+table.custom_table tr td:first-child span{ color:rgba(210,19,86,1); }
+table.custom_table tr td:last-child{ width:75%; }
+table.custom_table tr td:last-child input{ width:100%; padding:7px 8px; margin-bottom:10px; }
+table.custom_table tr td:last-child textarea{ width:100%; padding:7px 8px; margin-bottom:10px;}
+table.custom_table tr td:last-child > a{ margin-bottom:10px; }
+
+table.custom_table tr td.subcat-standard select{width:100%; height:32px; line-height:32px;  margin-bottom:10px;}
+
+table.custom_table tr td.pca{ font-size:14px; }
+table.custom_table tr td.pca select{ width:150px; height:32px; line-height:32px;  margin-bottom:10px;}
+table.custom_table tr td.pca span{ position:relative; top:-3px; }
+table.custom_table tr td.pca span:nth-child(1){ margin-left:10px; }
+table.custom_table tr td.pca select:nth-child(2){ margin-right:10px; }
+table.custom_table tr td.pca span:nth-child(5){ margin-left:10px;  }
+
+table.custom_table tr td #ass_status{ width:150px; height:32px; line-height:32px;  margin-bottom:10px;}
+.disabled_update{border:1px solid #ccc; height:32px; line-height:32px; padding-left:8px; margin-bottom:10px; color:#FF5722}
+
+table.custom_table tr td > a{ display:block; margin:0 auto;}
+table.custom_table tr td > a img{ max-width:100%; display:block; height:auto; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

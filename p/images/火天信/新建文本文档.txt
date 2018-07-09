@@ -1,0 +1,9 @@
+
+<div class="layui-input-block">
+<input type="radio" name="sex" value="0" title="男">
+</div>，class属性是固定写法。
+这样写好了以后，你如果是写在静态页面，这样式可以看见效果，如果写在js里，这样写了还有一步得写，那就是
+var form = layui.form();
+form.render("select"); //更新全部
+这样写是外面套的是form标签，如果是div，就写layui.div();即可。
+对于下拉框的事件的使用，语法form.on('event(过滤器值)', callback);

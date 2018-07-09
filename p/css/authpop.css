@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+/****#mobile-auth start****/
+#mobile-auth{ padding:50px 30px 0px 30px; display:none; }
+#mobile-auth .layui-form .layui-form-item{ min-height:65px; margin-bottom:5px; position:relative; right:13px; }
+#mobile-auth .layui-form .layui-form-item .layui-input {height:42px; line-height:42px;}
+#mobile-auth .layui-form .layui-form-item .layui-input-inline { width:100px; margin-right:10px; }
+#mobile-auth .layui-form .layui-form-item .layui-inline button{ position:relative; left:16px;  display:block; line-height:38px; text-align:center; width:90px; border-radius:4px; background:#5fb878; color:#fff; border:1px solid #ccc; }
+#mobile-auth .layui-form .layui-form-item .layui-btn { background-color:#e4393c; width:230px; }
+#mobile-auth .layui-form .layui-form-item  .auth-error{ color:#e4393c; position:absolute; bottom:3px; font-size:12px; left:111px;  }
+
+
+#email-auth{ padding:50px 30px 0px 30px; display:none; }
+#email-auth .layui-form .layui-form-item{ min-height:65px; margin-bottom:5px; position:relative; right:33px; }
+#email-auth .layui-form .layui-form-item .layui-input {height:42px; line-height:42px;}
+#email-auth .layui-form .layui-form-item .layui-input-inline { width:100px; margin-right:10px; }
+#email-auth .layui-form .layui-form-item .layui-inline button{ position:relative; left:16px;  display:block; line-height:38px; text-align:center; width:90px; border-radius:4px; background:#5fb878; color:#fff; border:1px solid #ccc; }
+#email-auth .layui-form .layui-form-item .layui-btn { background-color:#e4393c; width:230px; }
+#email-auth .layui-form .layui-form-item  .auth-error{ color:red; position:absolute; bottom:3px; font-size:12px; left:120px;  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

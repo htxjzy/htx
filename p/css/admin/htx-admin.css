@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+*@font-face {font-family:'msyh';	src: url('msyh.ttc'); src: url('msyhl.ttc');src: url('msyhbd.ttc');	font-weight:normal;	font-style:normal;}
+html,body,div,h1,h2,h3,h4,h5,h6,p,img,dl,dt,dd,ol,ul,li,table,caption,tbody,tfoot,thead,tr,th,td,form,fieldset,embed,object,applet,header,nav,section,strong,footer,a img{border:0;margin:0;padding:0;}ul{list-style:none}
+a{ text-decoration:none; transition:all 0.5s linear 0s;}
+p{ text-align:justify; text-justify:inter-ideograph; }
+a:hover{ text-decoration:none; }
+img {border:none; vertical-align:top;}
+body{ font-family:"msyhl422459","微软雅黑","Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",STHeiti,MingLiu,Srial, Verdana, Geneva, sans-serif, tahoma, helvetica, sans-serif; font-size:14px; /*background:url(../images/bodybg-yuan.jpg) center center no-repeat; background-attachment:fixed*/ }
+
+#profile-page{width:94%; min-height:500px; background:#fff; padding:10px 20px; margin:30px auto 0 auto; }
+#profile-page h1.wp-heading-inline{ margin-bottom:20px; }
+#profile-page > a.page-title-action{ margin-left:30px; }
+
+#profile-page #your-profile > h2{ background:#eaeaea; padding:6px 10px; margin-right:8px; font-weight:normal; }
+#profile-page #your-profile > h2:nth-child(5){ display:none; }
+#profile-page #your-profile > h3{ margin-top:20px; font-size:1.1em; padding-left:20px; font-weight:normal;}
+
+#profile-page table.form-table{ width:100%; }
+#profile-page table.form-table tr.user-rich-editing-wrap, 
+#profile-page table.form-table tr.user-admin-color-wrap, 
+#profile-page table.form-table tr.user-comment-shortcuts-wrap,
+#profile-page table.form-table tr.user-admin-bar-front-wrap,
+#profile-page table.form-table tr.user-language-wrap,
+#profile-page table.form-table tr.user-first-name-wrap,
+#profile-page table.form-table tr.user-last-name-wrap,
+#profile-page table.form-table tr.user-url-wrap{ display:none; }
+
+#profile-page table.form-table tr th{ padding-left:20px; font-weight:normal; }
+#profile-page table.form-table tr td input{ width:100%; }
+#profile-page table.form-table tr td input[name="syntax_highlighting"], #profile-page table.form-table tr td input[name="simple-local-avatar-erase"]{ width:30px; }
+#profile-page .form-table textarea {width:100%;}
+
+#profile-page table.form-table tr td select[name="display_name"]{ width:228px;}
+
+#profile-page #custom_avatar_form input[name="file"]{ border:1px red dashed; }
+
+/*#profile-page table.form-table tr.user-description-wrap p.description{ display:none; }*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

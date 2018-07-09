@@ -1,0 +1,20 @@
+@charset "utf-8";
+*{ margin:0; padding:0; list-style:none;}
+body{font-family:"msyhl422459","微软雅黑",Srial, Verdana, Geneva, sans-serif, tahoma, helvetica, sans-serif; color:#666;}
+h1{ text-align:center;}
+.bs_settings{ width:90%;  margin:25px auto 15px auto; background:#f0f0f0; font-family:'微软雅黑';}
+.bs_settings .tab{  background:#ccc;}
+.bs_settings .tab a{ display:block; width:10%; padding:10px 0px; float:left; text-align:center; font-size:16px; font-weight:bold; text-decoration:none; color:#333; transition:all 0.5s linear 0s;}
+.bs_settings .tab a:hover{ background:#bbb; color:#fff; text-decoration:none;}
+.bs_settings .tab a.on{ background:rgba(0,115,170,1); color:#fff; text-decoration:none;}
+.bs_settings .content{ overflow:hidden; padding:10px 0px 0px 0px;}
+.bs_settings .content li{ display:none; }
+.bs_settings .content li form{background:#ddd; padding:1% 2% 1% 2%; margin:2% 0px; padding-bottom:30px;}
+.bs_settings .content li form table{ width:100%; }
+.bs_settings .content li form table td{ color:#333; }
+.bs_settings .content li form input.submit{ font-size:14px; cursor:pointer; width:100px; color:#fff; padding:5px; border-radius:4px; background:rgba(0,115,170,1);  border:1px solid rgba(0,115,170,1); transition:all 0.3s linear 0s; }
+.bs_settings .content li form input.submit:hover{ color:#333; background:rgba(223,121,33,1);  border:1px solid rgba(223,121,33,1);  }
+/*.bs_settings .content li form table td textarea{ margin-top:1px; }*/
+
+
+
